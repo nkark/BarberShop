@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>953937980130-nhfa46284f9m5vhielncao9fu2p1vjtg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.953937980130-nhfa46284f9m5vhielncao9fu2p1vjtg</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDR9HodNEaDJN0Lp_sl4F2wT1Hv61nXjqk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>953937980130</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Appular.BarberShop</string>
+	<key>PROJECT_ID</key>
+	<string>barbershop-eb08b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>barbershop-eb08b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:953937980130:ios:7808fb4d478b532e</string>
+	<key>DATABASE_URL</key>
+	<string>https://barbershop-eb08b.firebaseio.com</string>
+</dict>
+</plist>

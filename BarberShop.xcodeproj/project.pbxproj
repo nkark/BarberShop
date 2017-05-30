@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5877D62B1E948782006B8321 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5877D62A1E948782006B8321 /* AppDelegate.swift */; };
+		5877D62D1E948782006B8321 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5877D62C1E948782006B8321 /* ViewController.swift */; };
+		5877D6301E948782006B8321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5877D62E1E948782006B8321 /* Main.storyboard */; };
+		5877D6321E948782006B8321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5877D6311E948782006B8321 /* Assets.xcassets */; };
+		5877D6351E948782006B8321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5877D6331E948782006B8321 /* LaunchScreen.storyboard */; };
+		5877D6401E948855006B8321 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5877D63F1E948855006B8321 /* Person.swift */; };
+		5877D6421E948AB6006B8321 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5877D6411E948AB6006B8321 /* Appointment.swift */; };
+		5877D6481E948CAF006B8321 /* Promotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5877D6471E948CAF006B8321 /* Promotion.swift */; };
+		5877D64A1E948EE0006B8321 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5877D6491E948EE0006B8321 /* GoogleService-Info.plist */; };
+		5877D64D1E949601006B8321 /* PersonDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5877D64C1E949601006B8321 /* PersonDataManager.swift */; };
+		58C9FC571EA86DD40099BA3B /* AppointmentDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C9FC561EA86DD40099BA3B /* AppointmentDataManager.swift */; };
+		906AEA605EDFF39CD936D905 /* Pods_BarberShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C0A7CBA399389E3500F712 /* Pods_BarberShop.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11C0A7CBA399389E3500F712 /* Pods_BarberShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarberShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3BC8121315DE8B4D29690B /* Pods-BarberShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarberShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarberShop/Pods-BarberShop.debug.xcconfig"; sourceTree = "<group>"; };
+		5877D6271E948782006B8321 /* BarberShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarberShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5877D62A1E948782006B8321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5877D62C1E948782006B8321 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5877D62F1E948782006B8321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5877D6311E948782006B8321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5877D6341E948782006B8321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5877D6361E948782006B8321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5877D63F1E948855006B8321 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5877D6411E948AB6006B8321 /* Appointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		5877D6471E948CAF006B8321 /* Promotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promotion.swift; sourceTree = "<group>"; };
+		5877D6491E948EE0006B8321 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5877D64C1E949601006B8321 /* PersonDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDataManager.swift; sourceTree = "<group>"; };
+		58C9FC561EA86DD40099BA3B /* AppointmentDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentDataManager.swift; sourceTree = "<group>"; };
+		A017D0ED05F2F80444DF1B2F /* Pods-BarberShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarberShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarberShop/Pods-BarberShop.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5877D6241E948782006B8321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906AEA605EDFF39CD936D905 /* Pods_BarberShop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5877D61E1E948782006B8321 = {
+			isa = PBXGroup;
+			children = (
+				5877D6291E948782006B8321 /* BarberShop */,
+				5877D6281E948782006B8321 /* Products */,
+				7AE74BBA2C34034D33B59518 /* Pods */,
+				671C6B46EAFE5F07BF0F9994 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5877D6281E948782006B8321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5877D6271E948782006B8321 /* BarberShop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5877D6291E948782006B8321 /* BarberShop */ = {
+			isa = PBXGroup;
+			children = (
+				5877D64B1E9495E4006B8321 /* Data Managers */,
+				5877D63C1E9487A8006B8321 /* Data Objects */,
+				5877D62A1E948782006B8321 /* AppDelegate.swift */,
+				5877D62C1E948782006B8321 /* ViewController.swift */,
+				5877D62E1E948782006B8321 /* Main.storyboard */,
+				5877D6311E948782006B8321 /* Assets.xcassets */,
+				5877D6331E948782006B8321 /* LaunchScreen.storyboard */,
+				5877D6491E948EE0006B8321 /* GoogleService-Info.plist */,
+				5877D6361E948782006B8321 /* Info.plist */,
+			);
+			path = BarberShop;
+			sourceTree = "<group>";
+		};
+		5877D63C1E9487A8006B8321 /* Data Objects */ = {
+			isa = PBXGroup;
+			children = (
+				5877D63F1E948855006B8321 /* Person.swift */,
+				5877D6411E948AB6006B8321 /* Appointment.swift */,
+				5877D6471E948CAF006B8321 /* Promotion.swift */,
+			);
+			name = "Data Objects";
+			sourceTree = "<group>";
+		};
+		5877D64B1E9495E4006B8321 /* Data Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5877D64C1E949601006B8321 /* PersonDataManager.swift */,
+				58C9FC561EA86DD40099BA3B /* AppointmentDataManager.swift */,
+			);
+			name = "Data Managers";
+			sourceTree = "<group>";
+		};
+		671C6B46EAFE5F07BF0F9994 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11C0A7CBA399389E3500F712 /* Pods_BarberShop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AE74BBA2C34034D33B59518 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A3BC8121315DE8B4D29690B /* Pods-BarberShop.debug.xcconfig */,
+				A017D0ED05F2F80444DF1B2F /* Pods-BarberShop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5877D6261E948782006B8321 /* BarberShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5877D6391E948782006B8321 /* Build configuration list for PBXNativeTarget "BarberShop" */;
+			buildPhases = (
+				78C46155173A2D62060CD6EC /* [CP] Check Pods Manifest.lock */,
+				5877D6231E948782006B8321 /* Sources */,
+				5877D6241E948782006B8321 /* Frameworks */,
+				5877D6251E948782006B8321 /* Resources */,
+				F150740CA1E336A60E98151C /* [CP] Embed Pods Frameworks */,
+				E0F6AAD0F50299B6E2A5F3C7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarberShop;
+			productName = BarberShop;
+			productReference = 5877D6271E948782006B8321 /* BarberShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5877D61F1E948782006B8321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nitin Karki";
+				TargetAttributes = {
+					5877D6261E948782006B8321 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 8K4L252PX6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5877D6221E948782006B8321 /* Build configuration list for PBXProject "BarberShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5877D61E1E948782006B8321;
+			productRefGroup = 5877D6281E948782006B8321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5877D6261E948782006B8321 /* BarberShop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5877D6251E948782006B8321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5877D6351E948782006B8321 /* LaunchScreen.storyboard in Resources */,
+				5877D64A1E948EE0006B8321 /* GoogleService-Info.plist in Resources */,
+				5877D6321E948782006B8321 /* Assets.xcassets in Resources */,
+				5877D6301E948782006B8321 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78C46155173A2D62060CD6EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0F6AAD0F50299B6E2A5F3C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarberShop/Pods-BarberShop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F150740CA1E336A60E98151C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarberShop/Pods-BarberShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5877D6231E948782006B8321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C9FC571EA86DD40099BA3B /* AppointmentDataManager.swift in Sources */,
+				5877D6401E948855006B8321 /* Person.swift in Sources */,
+				5877D62D1E948782006B8321 /* ViewController.swift in Sources */,
+				5877D62B1E948782006B8321 /* AppDelegate.swift in Sources */,
+				5877D6421E948AB6006B8321 /* Appointment.swift in Sources */,
+				5877D64D1E949601006B8321 /* PersonDataManager.swift in Sources */,
+				5877D6481E948CAF006B8321 /* Promotion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5877D62E1E948782006B8321 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5877D62F1E948782006B8321 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5877D6331E948782006B8321 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5877D6341E948782006B8321 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5877D6371E948782006B8321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5877D6381E948782006B8321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5877D63A1E948782006B8321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3BC8121315DE8B4D29690B /* Pods-BarberShop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8K4L252PX6;
+				INFOPLIST_FILE = BarberShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appular.BarberShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5877D63B1E948782006B8321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A017D0ED05F2F80444DF1B2F /* Pods-BarberShop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8K4L252PX6;
+				INFOPLIST_FILE = BarberShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appular.BarberShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5877D6221E948782006B8321 /* Build configuration list for PBXProject "BarberShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5877D6371E948782006B8321 /* Debug */,
+				5877D6381E948782006B8321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5877D6391E948782006B8321 /* Build configuration list for PBXNativeTarget "BarberShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5877D63A1E948782006B8321 /* Debug */,
+				5877D63B1E948782006B8321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5877D61F1E948782006B8321 /* Project object */;
+}
