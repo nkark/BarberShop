@@ -11,6 +11,8 @@ import ObjectMapper
 
 class Appointment:Mappable {
     
+    // comment
+    
     var haircutter:Person?
     var customer:Person?
     var date:Date?
